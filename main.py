@@ -27,8 +27,7 @@ def view_todo():
     todos = get_all_todos()
     if todos:
         print("\nTo_do List:")
-        # enu : -> (1, (1, "flowers")), (2, (2, "chocolates"))
-        for index, task_name in enumerate(todos, start=1): # todos -> [(1, "flowers"), (2, "chocolates")]
+        for index, task_name in enumerate(todos, start=1): 
             print(f"{index}",".",task_name[1],sep='')
 
 
