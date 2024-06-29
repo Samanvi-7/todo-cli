@@ -74,5 +74,7 @@ Please make sure to update tests as appropriate.
 
 ## License 
 
+Distributed under the MIT License. See [MIT](https://choosealicense.com/licenses/mit/) for more information.
+
 
 
